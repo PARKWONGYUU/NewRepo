@@ -1,0 +1,9 @@
+num,class,str,health,agillity,security,carpentry,tailoring,cook,gathering,aim,reload,onehand,twohand,weaponMg
+0,firefighter,4,4,1,0,0,0,0,0,0,0,0,2,1
+1,soldier,2,2,1,0,0,0,0,0,3,3,0,0,1
+2,construct_worker,3,2,0,0,3,0,0,1,0,0,3,0,0
+3,fitness_instructor,2,4,2,2,0,1,1,0,0,0,0,0,0
+4,sneak,1,1,4,4,0,0,0,0,0,0,2,0,0
+5,kendo,2,2,2,0,1,0,0,0,0,0,0,3,2
+6,chef,1,1,1,0,0,0,3,2,0,0,3,0,1
+7,survival_expert,3,3,2,1,1,1,1,1,1,1,1,1,1

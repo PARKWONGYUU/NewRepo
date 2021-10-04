@@ -1,0 +1,6 @@
+No,EnemyName,EnemyHP,Strength,MoveSpeed,range,Attack Percentage,Walk,Stop
+0,Zombie,100,10,3,5,10,1.5,0
+1,Tank_Zombie,150,20,1.5,5,30,0.5,0
+2,Speed_Zombie,80,10,5,5,10,3,0
+3,Night_Zombie,130,15,4,5,20,2,0
+4,Super_Zombie,200,20,6,100,30,3,0

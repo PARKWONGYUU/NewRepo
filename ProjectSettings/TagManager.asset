@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Shootable
+  - Manager
+  - Weapon
+  - Enemy
+  - Pistol
+  - Manager
+  - Weapon
+  - Closet
+  - Drawer
+  - Refrigerator
+  - Door
+  - Bullet
+  - PlayerAttack
+  - Wall
+  - PlayerSound
+  - Ceiling
+  - Floor
+  - ZombieBOX
+  - GetButton
+  - Carrion
+  - EnemyDead
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Enemy
+  - Water
+  - UI
+  - Player
+  - Furniture
+  - 
+  - 
+  - 
+  - Lighting
+  - Ground
+  - Postprocessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Fire
+    uniqueID: 3804908061
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

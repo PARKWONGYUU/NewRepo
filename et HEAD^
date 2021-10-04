@@ -1,0 +1,216 @@
+[33mcommit 1b774430504a44ec154749b833712ea55da42f10[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: 박원규 <dsfa122@gmail.com>
+Date:   Thu Sep 30 15:40:32 2021 +0900
+
+    update gitattributes
+
+[33mcommit 6f05793d23a6266dc5ca04ebce1f6b1e0bc5c1e4[m
+Author: 박원규 <dsfa122@gmail.com>
+Date:   Thu Sep 30 15:30:36 2021 +0900
+
+    전부 가져가기 오류 수정 완료
+
+[33mcommit 923da064d3e153ad5d375d0cf861cc9f5baa1389[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: 박원규 <dsfa122@gmail.com>
+Date:   Thu Sep 30 14:51:37 2021 +0900
+
+    장비 프리펩 수정, 자잘한 오류 수정
+
+[33mcommit 3194a498af4664caf6d43aecaf6fa602d16566ac[m
+Author: AJH <rainbow940908@gmail.com>
+Date:   Thu Sep 30 12:59:45 2021 +0900
+
+    GUI 에셋 추가 및 좀비 로직 수정
+
+[33mcommit a84f01dcda9c109ef0a03745b12cbd6ab3c76c09[m
+Author: PARKWONGYU <dsfa122@gmail.com>
+Date:   Thu Sep 30 01:24:52 2021 +0900
+
+    한 번에 가져가기 버튼 구현, 오류있음.. 장비 장착 버그 수정/방어 로직 오류 발견
+
+[33mcommit 34f6f6a1184bc3607375c641b0bd00cc4b38f477[m
+Author: AJH <rainbow940908@gmail.com>
+Date:   Wed Sep 29 18:37:46 2021 +0900
+
+    잠자기 구현 _플레이어와 연동필요
+
+[33mcommit a9053df48381b1b079a67b0d8267e3d196bb0159[m
+Author: AJH <rainbow940908@gmail.com>
+Date:   Wed Sep 29 16:00:26 2021 +0900
+
+    좀비 플레이어 방어구 HP 깍는 코드 추가 버전
+
+[33mcommit 7bd0da911e652fba1558bb10cb71b237506680d8[m
+Author: AJH <rainbow940908@gmail.com>
+Date:   Wed Sep 29 15:27:20 2021 +0900
+
+    네비 메쉬 추가 및 좀비 이상동작 일부 수정(추가 수정 및 침대 구현 필요)
+
+[33mcommit c24fb5efee3ebeb0b5f182ecb85ea48ea8140e46[m
+Author: PARKWONGYU <dsfa122@gmail.com>
+Date:   Wed Sep 29 12:57:24 2021 +0900
+
+    소비아이템 사용 구현 완료,
+
+[33mcommit acc25c1e136aae078567649c75eb316c23f57b34[m
+Author: Tae Ho Yun <taehoyun0407@gmail.com>
+Date:   Wed Sep 29 09:46:10 2021 +0900
+
+    맵 Ver_1.0
+
+[33mcommit db26c6aa493d50db85286389bc0c85defd1b40bd[m
+Author: 박원규 <dsfa122@gmail.com>
+Date:   Tue Sep 28 18:12:02 2021 +0900
+
+    버그 수정 필요, 맵 에셋 들어감
+
+[33mcommit 197188b97f892f0613172ca78400fd6f517d79f7[m
+Author: 박원규 <dsfa122@gmail.com>
+Date:   Tue Sep 28 17:32:54 2021 +0900
+
+    Ver_1.1 버그 엄청많음
+
+[33mcommit 1bca52aa23a090233271b13b67fcdffb5a648da6[m
+Author: 박원규 <dsfa122@gmail.com>
+Date:   Tue Sep 28 12:39:54 2021 +0900
+
+    수류탄 버그 수정, 인벤토리 버그 수정
+
+[33mcommit 908bdaccb0d881c2c5fc556151f05e61a8a33cb4[m
+Author: AJH <rainbow940908@gmail.com>
+Date:   Tue Sep 28 10:13:59 2021 +0900
+
+    좀비 생성 위치 조정
+
+[33mcommit 375bb92b18e75ed104bb61b40d1860e8b360167c[m
+Merge: b07b6d108 a2a309f0f
+Author: AJH <rainbow940908@gmail.com>
+Date:   Tue Sep 28 09:37:25 2021 +0900
+
+    Merge remote-tracking branch 'origin/AJH'
+    
+    # Conflicts:
+    #       .vs/TeamProject_Zomvival/v16/.suo
+    #       Assembly-CSharp.csproj
+    #       Assets/Scenes/TestWorldMap_V1.09.27.meta
+    #       Assets/Scenes/TestWorldMap_V1.09.27.unity
+    #       Library/ArtifactDB
+    #       Library/Artifacts/06/062c0279bcb17db8026103d3c6d41b63
+    #       Library/Artifacts/07/071bf7ad3d302e4fc73474164607986b
+    #       Library/Artifacts/09/09ea88b69d811ba22fec909e8686a24b
+    #       Library/Artifacts/15/159a080f74be1641e7b87da8ab6e8b83
+    #       Library/Artifacts/23/234b31edce9ea369cfe01bac5d5c945c
+    #       Library/Artifacts/29/29f30d3c8631f651d8bec37179e5d701
+    #       Library/Artifacts/32/32d4111387460d8b5b965b6066635a24
+    #       Library/Artifacts/36/3601d83f355f1a6b3062f83a225b25b7
+    #       Library/Artifacts/43/435ae1a43dba2e633c9f8ab4dcc28dad
+    #       Library/Artifacts/6c/6c730fd5258e54603a23cd0bff0c9b50
+    #       Library/Artifacts/73/73fa77e99e4f3daa34c5f9bbc9db36ba
+    #       Library/Artifacts/98/98aaca693396b36bf1eceaf379b7bd6c
+    #       Library/Artifacts/af/af6bdfc26200c8429d25e263e58e687b
+    #       Library/Artifacts/b2/b2be1020befa04f456d8a2ca7ada98e9
+    #       Library/Artifacts/cc/ccc11aa2c0c174b0547d63b3092560f3
+    #       Library/BurstCache/JIT/CacheManifest.json
+    #       Library/CurrentLayout-default.dwlt
+    #       Library/PackageManager/ProjectCache
+    #       Library/PackageManager/ProjectCache.md5
+    #       Library/SceneVisibilityState.asset
+    #       Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       Library/ScriptAssemblies/Assembly-CSharp.pdb
+    #       Library/ShaderCache/EditorEncounteredVariants
+    #       Library/SourceAssetDB
+    #       Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+    #       Library/expandedItems
+    #       Logs/AssetImportWorker0.log
+    #       Logs/shadercompiler-AssetImportWorker0.log
+    #       Logs/shadercompiler-UnityShaderCompiler.exe0.log
+    #       obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+
+[33mcommit b07b6d1086de352721726e4fa08de6032a224acc[m
+Author: Tae Ho Yun <taehoyun0407@gmail.com>
+Date:   Mon Sep 27 22:38:55 2021 +0900
+
+    혹시 몰라 업데이트
+
+[33mcommit a2a309f0f014c984c6f708ea40a0b1d5a4235493[m[33m ([m[1;31morigin/AJH[m[33m)[m
+Author: AJH <rainbow940908@gmail.com>
+Date:   Mon Sep 27 21:31:03 2021 +0900
+
+    좀비 이상행동 수정 및 좀시 사망시 계속 남아 있도록 변경
+
+[33mcommit 4b5053de1f500ff789668d371d990d8a6ec93f0d[m
+Author: AJH <rainbow940908@gmail.com>
+Date:   Mon Sep 27 19:16:54 2021 +0900
+
+    버그 수정 확인필요
+
+[33mcommit 76f10d1294e869a22efee192dd6509528da6551a[m
+Author: Tae Ho Yun <taehoyun0407@gmail.com>
+Date:   Mon Sep 27 17:38:37 2021 +0900
+
+    도로
+
+[33mcommit 9a81bebfc55ec2298e956e7914386e8665700242[m
+Author: AJH <rainbow940908@gmail.com>
+Date:   Mon Sep 27 17:17:03 2021 +0900
+
+    네비메쉬 적용 및 좀비 사운드 추가
+
+[33mcommit e4a23130c69edcd94f870706cd30206283a28708[m
+Author: Tae Ho Yun <taehoyun0407@gmail.com>
+Date:   Mon Sep 27 16:14:42 2021 +0900
+
+    맵 세팅
+
+[33mcommit cf09e95cd0f5f61864a99256b1f9dfde94b8836b[m
+Merge: a5cfb1636 e6c9966f6
+Author: AJH <rainbow940908@gmail.com>
+Date:   Mon Sep 27 13:05:44 2021 +0900
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       .vs/TeamProject_Zomvival/v16/.suo
+    #       Assets/Scenes/TestWorldMap0925_New.unity
+    #       Library/ArtifactDB
+    #       Library/Artifacts/30/30c8ec5c2d77deb172c044ced293ced9
+    #       Library/Artifacts/42/42b6f1ef9ccdcf81ed954a2f66efb126
+    #       Library/Artifacts/80/804cfa125496f892e37d75d6ec4b0d78
+    #       Library/Artifacts/c2/c25c9d4301c5f796e9456c3a40db3bad
+    #       Library/Artifacts/c6/c62ccf3bbdb6f92b962e8b2c5d3c6761
+    #       Library/CurrentLayout-default.dwlt
+    #       Library/SceneVisibilityState.asset
+    #       Library/ScriptAssemblies/Assembly-CSharp.dll
+    #       Library/ScriptAssemblies/Assembly-CSharp.pdb
+    #       Library/ShaderCache/EditorEncounteredVariants
+    #       Library/SourceAssetDB
+    #       Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+    #       Library/expandedItems
+    #       Logs/AssetImportWorker0.log
+    #       Logs/shadercompiler-AssetImportWorker0.log
+    #       Logs/shadercompiler-UnityShaderCompiler.exe1.log
+    #       Logs/shadercompiler-UnityShaderCompiler.exe6.log
+    #       Logs/shadercompiler-UnityShaderCompiler.exe7.log
+
+[33mcommit a5cfb1636f59184f9d12ef7452ebd87b6b1af6b7[m
+Author: AJH <rainbow940908@gmail.com>
+Date:   Mon Sep 27 13:02:38 2021 +0900
+
+    좀비 오류 일부 수정 및 맵에 사운드 추가
+
+[33mcommit e6c9966f6c232e9fbf0dc29e2ffa9fe4ad75f4c5[m
+Author: PARKWONGYU <dsfa122@gmail.com>
+Date:   Mon Sep 27 12:50:53 2021 +0900
+
+    직업 선택 UI 추가, 수류탄 개선 및 오류수정, 아이템 버리기 구현 완료
+
+[33mcommit 03efc2926b03610b1eb6523d1077279b0e722b3d[m
+Author: AJH <rainbow940908@gmail.com>
+Date:   Mon Sep 27 11:04:17 2021 +0900
+
+    통합본
+
+[33mcommit 3d52c0f521f399e2093807b3e059a0bff963b867[m
+Merge: 15b327832 30da103cf
+Author: AJH <rainbow940908@gmail.com>
+Date:   Mon Sep 27 10:43:16 20

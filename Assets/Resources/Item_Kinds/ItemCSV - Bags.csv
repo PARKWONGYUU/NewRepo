@@ -1,0 +1,5 @@
+ItemName,MaxWeight,MaxItem,MainItemNum,ServeItemNum,Weight
+손가방,10,10,1,0,0.2
+서류 가방,60,30,1,1,0.2
+군용 가방,100,50,1,2,0.2
+스쿨백,30,15,1,3,0.2

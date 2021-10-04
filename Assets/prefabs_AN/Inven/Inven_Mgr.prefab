@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8177228021999230536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8177228021999230538}
+  - component: {fileID: 8177228021999230537}
+  - component: {fileID: 8177228021999230539}
+  - component: {fileID: 8177228021999230540}
+  - component: {fileID: 8177228021999230541}
+  - component: {fileID: -1899607635127922913}
+  m_Layer: 0
+  m_Name: Inven_Mgr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8177228021999230538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8177228021999230536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8177228021999230537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8177228021999230536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69e65e1d7478be04980846ec7439c84f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataFrePab:
+  - Item_Kinds/ItemCSV - Armors
+  - Item_Kinds/ItemCSV - Bags
+  - Item_Kinds/ItemCSV - OneHandedWeapon
+  - Item_Kinds/ItemCSV - TwoHandeWeapon
+  - Item_Kinds/ItemCSV - Firearms
+  - Item_Kinds/ItemCSV - Grenade
+  - Item_Kinds/ItemCSV - Food
+  - Item_Kinds/ItemCSV - Drink
+  item_Name: []
+  item_Weight: []
+  item_unique_Num1: 
+  item_unique_Num2: 
+--- !u!114 &8177228021999230539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8177228021999230536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836288f8b013930449269a2e9f578aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8177228021999230540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8177228021999230536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a02640101f11994fb6091bce9a75d43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataFrePab: Furniture_Kinds/FurnitureCSV - Furniture
+  furniture_Name: []
+  furniture_Weight: []
+  furniture_Num: 
+--- !u!114 &8177228021999230541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8177228021999230536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63a0c75ad0dbbe46a5e06f44bea5424, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item_Name: {fileID: 0}
+  item_Move: {fileID: 0}
+--- !u!114 &-1899607635127922913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8177228021999230536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447d2c1e71636d44f8aed61f4ecb0377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  get_Furniture: []

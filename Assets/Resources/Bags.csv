@@ -1,0 +1,5 @@
+ItemName,MaxWeight,MaxItem,MainItemNum,ServeItemNum,Weight
+Bag,10,10,1,0,0.2
+BagPack,60,30,1,1,0.2
+MilitaryBag,100,50,1,2,0.2
+SchoolBag,30,15,1,3,0.2

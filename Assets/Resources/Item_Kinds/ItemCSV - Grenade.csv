@@ -1,0 +1,4 @@
+ItemName,AttackPower,AttackRange,AttackSpeed,Weight,MainItemNum,ServeItemNum
+화염병,11,2,1,1.1,5,0
+수류탄,23,2,1.1,1.2,5,1
+썩은 고기,0,2,1.2,1,5,2

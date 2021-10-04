@@ -1,0 +1,4 @@
+ItemName,AttackPower,AttackRange,AttackSpeed,Weight,MainItemNum,ServeItemNum
+Molotov,11,2,1,1.1,5,0
+Grenade,23,2,1.1,1.2,5,1
+Carrion,0,2,1.2,1,5,2
