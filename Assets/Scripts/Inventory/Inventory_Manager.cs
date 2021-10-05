@@ -129,9 +129,7 @@ public class Inventory_Manager : MonoBehaviour
         weightText.text = "Total Weight : " + weight.ToString() + "g";
         if(player_Inven != null)
             item_Child_Num = player_Inven.Count;
-        if (true)
-            return;
-        if (player.GetComponent<WG_PlayerEquipment>().usableWeapons == null)
+        if (player.GetComponent<WG_Player>().noWeapon)
         {
             return;
         }

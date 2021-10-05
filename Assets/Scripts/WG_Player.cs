@@ -65,7 +65,6 @@ public class WG_Player : MonoBehaviour
     WG_PlayerMoveController mvCon;
     public WG_SimpleTouchController touchMgr;
     public GameObject attackRange;
-    public Transform cameraPos;
     public enum PLAYERSTATE
     {
         IDLE,
@@ -162,7 +161,7 @@ public class WG_Player : MonoBehaviour
         }
         if (playerHP <= 0)
         {
-            playerTired = 0;
+            playerHP = 0;
         }
 
         playerTired += Time.deltaTime * (0.15f - playerClass.health * 0.01f);
@@ -376,7 +375,6 @@ public class WG_Player : MonoBehaviour
                 else if (attackCurTime > noWeaponActionTime / 5 && attackCurTime < noWeaponActionTime / 2)
                 {
                     attackRange.SetActive(true);
-                    Camera.main.transform.position += new Vector3(Random.Range(-0.1f, 0.1f), Random.Range(-0.1f, 0.1f), Random.Range(-0.1f, 0.1f));
                 }
                 else if (attackCurTime >= noWeaponActionTime / 2)
                 {
@@ -386,8 +384,6 @@ public class WG_Player : MonoBehaviour
                 {
                     playerEndurance -= 2 - playerClass.health / 10;
                     attackCurTime = 0;
-
-                    Camera.main.transform.position = cameraPos.transform.position;
                 }
             }
             if (isOneHanded && isAttack && !isAttackCoolTime && playerEndurance > 0)
@@ -453,7 +449,7 @@ public class WG_Player : MonoBehaviour
         playerClass.onehandExp = int.Parse(data_Dialog[i]["onehand"].ToString());
         playerClass.twohandExp = int.Parse(data_Dialog[i]["twohand"].ToString());
         playerClass.weaponManagement = int.Parse(data_Dialog[i]["weaponMg"].ToString());
-        // classSelectUI.SetActive(false);
+        classSelectUI.SetActive(false);
     }
     public void WG_RandomClassSelect()  //랜덤 직업 선택 함수
     {

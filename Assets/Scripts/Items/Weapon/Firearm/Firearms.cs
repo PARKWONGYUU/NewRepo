@@ -21,5 +21,5 @@ public class Firearms : MonoBehaviour
     public float attackCoolTime; //쏘는 속도
     public int mainItemNum; //무기 분류
     public int subItemNum;
-    public int durabillity = 50;
+    public int durabillity;
 }
